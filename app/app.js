@@ -28,7 +28,7 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 //   console.log("Su numero es par");
 // }else console.log("Su numero es impar");
 
-  //TAREA 3
+//TAREA 3
 
 let num=prompt("Ingrese un numero para saber si es Primo");
 let esPrimo = true;
