@@ -11,3 +11,16 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   C- Regular
   D- Suficiente
   F- No Suficiente */
+
+/*---------Ejecicio N°1---------*/
+let number1 = prompt("Ingresa un Valor");
+let number2 = prompt("Ingresa un Valor");
+let number3 = prompt("Ingresa un Valor");
+
+
+if (number1 == number2 || number1 == number3 || number2 == number3){
+  console.log("Dos o mas numeros son iguales");
+}
+else {
+  console.log("El mayor numero es:", Math.max(number1, number2, number3));
+}
