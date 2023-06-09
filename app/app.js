@@ -11,3 +11,10 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   C- Regular
   D- Suficiente
   F- No Suficiente */
+
+let num1 = prompt("Ingrese el primer numero");
+let num2 = prompt("Ingrese el segundo numero");
+let num3 = prompt("Ingrese el tercer numero");
+
+if(num1==num2==num3)console.log("Los numeros son iguales.");
+else {console.log("El numero mas grande es: " + Math.max(num1,num2,num3))};
