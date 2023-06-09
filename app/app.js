@@ -30,18 +30,41 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 //TAREA 3
 
-let num=prompt("Ingrese un numero para saber si es Primo");
-let esPrimo = true;
+// let num=prompt("Ingrese un numero para saber si es Primo");
+// let esPrimo = true;
 
-if(num<=1){
-  esPrimo=false;
-}else{
-  for(let div=2;div<num;div++){
-    if(num%div==0){
-      esPrimo=false;
-      break;
-    }
-  }
+// if(num<=1){
+//   esPrimo=false;
+// }else{
+//   for(let div=2;div<num;div++){
+//     if(num%div==0){
+//       esPrimo=false;
+//       break;
+//     }
+//   }
+// }
+// if(esPrimo)console.log("Su numero es primo.");
+// else console.log("Su numero no es primo");
+
+//TAREA 4
+
+let nota = prompt("Ingrese su nota para saber su calificacion").toUpperCase();
+
+switch(nota){
+  case"A":
+    console.log("Su calificacion: Excelente");
+    break;
+  case"B":
+    console.log("Su calificacion: Buena");
+    break;
+  case"C":
+    console.log("Su calificacion: Regular");
+    break;
+  case"D":
+    console.log("Su calificacion: Suficiente");
+    break;
+  case"F":
+    console.log("Su calificacion: No suficiente");
+    break;
+  default: console.log("Nota ingresada NO valida");
 }
-if(esPrimo)console.log("Su numero es primo.");
-else console.log("Su numero no es primo");
