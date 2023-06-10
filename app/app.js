@@ -12,7 +12,7 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   D- Suficiente
   F- No Suficiente */
 
-// Ejercicio 1
+// Ejercicio 1.
 
 // const num1 = prompt("Ingresa el primer numero");
 // const num2 = prompt("Ingresa el segundo numero");
@@ -35,11 +35,30 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // Ejercicio 2.
 
-const num = parseInt(prompt("Ingrese un numero"));
+// const num = parseInt(prompt("Ingrese un numero"));
 
-if (num % 2 == 0) {
-  console.log("El numero ingresado es par");
+// if (num % 2 == 0) {
+//   console.log("El numero ingresado es par");
+// }
+// else {
+//   console.log("El numero ingresado es impar");
+// }
+
+//////////////////////////////////////////////////////
+
+// Ejercicio 3. 
+
+let numero = prompt("ingrese un numero");
+let divisores = 0;
+
+for(let i = 1 ; i <= numero ; i++)
+
+if (numero % i == 0) {
+  divisores++;
 }
-else {
-  console.log("El numero ingresado es impar");
+if(divisores == 2){
+  console.log("El numero ingresado es primo")
+}
+else{
+  console.log("El numero ingresado no es primo")
 }
