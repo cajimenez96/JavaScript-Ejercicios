@@ -48,17 +48,42 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // Ejercicio 3. 
 
-let numero = prompt("ingrese un numero");
-let divisores = 0;
+// let numero = prompt("ingrese un numero");
+// let divisores = 0;
 
-for(let i = 1 ; i <= numero ; i++)
+// for(let i = 1 ; i <= numero ; i++)
 
-if (numero % i == 0) {
-  divisores++;
+// if (numero % i == 0) {
+//   divisores++;
+// }
+// if(divisores == 2){
+//   console.log("El numero ingresado es primo");
+// }
+// else{
+//   console.log("El numero ingresado no es primo");
+// }
+
+//////////////////////////////////////////////////////
+
+// Ejercicio 4.
+
+const nota = prompt("Ingrese su nota").toUpperCase();
+
+if (nota === "A") {
+  console.log("Excelente");
 }
-if(divisores == 2){
-  console.log("El numero ingresado es primo")
+else if (nota === "B") {
+  console.log("Buena");
 }
-else{
-  console.log("El numero ingresado no es primo")
+else if (nota === "C") {
+  console.log("Regular");
+}
+else if (nota === "D") {
+  console.log("Suficiente");
+}
+else if (nota === "F") {
+  console.log("No Suficiente");
+}
+else {
+  console.log("La nota ingresada no es valida");
 }
