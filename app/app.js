@@ -15,15 +15,24 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO NUMERO 1
 
-  const numero1=prompt("Ingresa un Numero");
-  const numero2=prompt("Ingresa un Numero");
-  const numero3=prompt("Ingresa un Numero");
-  let maximo = Math.max(numero1, numero2, numero3);
+  // const numero1=prompt("Ingresa un Numero");
+  // const numero2=prompt("Ingresa un Numero");
+  // const numero3=prompt("Ingresa un Numero");
+  // let maximo = Math.max(numero1, numero2, numero3);
 
-  if (numero1 == numero2 && numero2 == numero3) {
-    console.log("Los numeros son iguales", + numero1);
-  }
-  else{
-    console.log("El numero maximo es " + maximo);
-  }
+  // if (numero1 == numero2 && numero2 == numero3) {
+  //   console.log("Los numeros son iguales", + numero1);
+  // }
+  // else{
+  //   console.log("El numero maximo es " + maximo);
+  // }
 
+// EJERCICIO NUMERO 2
+
+const numero4=prompt("Ingresa un Numero");
+
+if(numero4 % 2 === 0) {
+  console.log("Es un numero par")
+} else {
+  console.log("Es un numero impar")
+}
