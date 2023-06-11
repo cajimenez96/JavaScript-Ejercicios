@@ -11,3 +11,19 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   C- Regular
   D- Suficiente
   F- No Suficiente */
+
+
+// EJERCICIO NUMERO 1
+
+  const numero1=prompt("Ingresa un Numero");
+  const numero2=prompt("Ingresa un Numero");
+  const numero3=prompt("Ingresa un Numero");
+  let maximo = Math.max(numero1, numero2, numero3);
+
+  if (numero1 == numero2 && numero2 == numero3) {
+    console.log("Los numeros son iguales", + numero1);
+  }
+  else{
+    console.log("El numero maximo es " + maximo);
+  }
+
