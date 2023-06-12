@@ -29,10 +29,40 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO NUMERO 2
 
-const numero4=prompt("Ingresa un Numero");
+// const numero4=prompt("Ingresa un Numero");
 
-if(numero4 % 2 === 0) {
-  console.log("Es un numero par")
-} else {
-  console.log("Es un numero impar")
+// if(numero4 % 2 === 0) {
+//   console.log("Es un numero par")
+// } else {
+//   console.log("Es un numero impar")
+// }
+
+// EJERCICIO NUMERO 3
+
+ function esPrimo(numero) {
+  if (numero <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i < numero; i++) {
+    if (numero % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
 }
+
+// Obtener el número del usuario
+const numero = prompt("Ingrese un número:");
+
+// Verificar si el número es primo
+if (esPrimo(numero)) {
+  console.log(numero + " es un número primo.");
+} else {
+  console.log(numero + " no es un número primo.");
+}
+
+
+
+
