@@ -39,30 +39,46 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO NUMERO 3
 
- function esPrimo(numero) {
-  if (numero <= 1) {
-    return false;
-  }
+//  function esPrimo(numero5) {
+//   if (numero5 <= 1) {
+//     return false;
+//   }
 
-  for (let i = 2; i < numero; i++) {
-    if (numero % i === 0) {
-      return false;
-    }
-  }
+//   for (let i = 2; i < numero5; i++) {
+//     if (numero5 % i === 0) {
+//       return false;
+//     }
+//   }
 
-  return true;
-}
+//   return true;
+// }
 
-// Obtener el número del usuario
-const numero = prompt("Ingrese un número:");
+// // Obtener el número del usuario
+// const numero5 = prompt("Ingrese un número:");
 
-// Verificar si el número es primo
-if (esPrimo(numero)) {
-  console.log(numero + " es un número primo.");
-} else {
-  console.log(numero + " no es un número primo.");
-}
+// // Verificar si el número es primo
+// if (esPrimo(numero5)) {
+//   console.log(numero5 + " es un número primo.");
+// } else {
+//   console.log(numero5 + " no es un número primo.");
+// }
 
+
+// EJERCICIO NUMERO 4
+
+const numero6=prompt("Ingresa un Numero");
+
+if (numero6 == 1 || numero6 == 2 || numero6 == 3)   {
+ console.log("Su nota es una F");
+ } else if(numero6 == 4 || numero6 == 5) {
+   console.log("Su nota es una D")
+ } else if (numero6 == 6 || numero6 == 7) {
+   console.log("Su nota es una C");
+ } else if (numero6 == 8) {
+   console.log("Su nota es una B")
+  } else if (numero6 == 9 || numero6 == 10) {
+   console.log("Su nota es una A");
+ }
 
 
 
