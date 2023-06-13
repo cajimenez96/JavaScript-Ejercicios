@@ -60,3 +60,29 @@ let numberP = parseInt(prompt("Ingresa un valor para determinar si es primo"));
  } else {
    console.log(numberP + " no es un número primo.");
  }
+
+ /*---------Ejecicio N°4---------*/
+
+let numCalif = parseInt(prompt("Ingresa la calificacion"));
+
+if(numCalif > 10 || numCalif < 1){
+  console.log("El valor ingresado no es valido, por favor ingrese un valor entre el 10 y el 1");
+  
+}
+else {
+  if (numCalif == 10) {
+    console.log("A- Excelente");
+  }
+  else if(numCalif == 9 || numCalif == 8) {
+    console.log("B- Bueno");
+  }
+  else if(numCalif == 7) {
+    console.log("C- Regular");
+  }
+  else if(numCalif == 6) {
+    console.log("D- Suficiente");
+  }
+  else {
+    console.log("F- Insuficiente");
+  }  
+}
