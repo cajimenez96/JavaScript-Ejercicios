@@ -15,16 +15,16 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
   //TAREA 1 
 
-// let num1 = prompt("Ingrese el primer numero");
-// let num2 = prompt("Ingrese el segundo numero");
-// let num3 = prompt("Ingrese el tercer numero");
+//  let num1 = prompt("Ingrese el primer numero");
+//  let num2 = prompt("Ingrese el segundo numero");
+//  let num3 = prompt("Ingrese el tercer numero");
 
-// if(num1==num2==num3)console.log("Los numeros son iguales.");
-// else {console.log("El numero mas grande es: " + Math.max(num1,num2,num3))};
+//  if(num1===num2 && num1===num3 && num2===num3)console.log("Los numeros son iguales.");
+//  else {console.log("El numero mas grande es: " + Math.max(num1,num2,num3))};
   //TAREA 2
 // let num=parseInt(prompt("Ingrese un numero para saber si es par"));
 
-// if(num%2==0){
+// if(num%2===0){
 //   console.log("Su numero es par");
 // }else console.log("Su numero es impar");
 
@@ -37,7 +37,7 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 //   esPrimo=false;
 // }else{
 //   for(let div=2;div<num;div++){
-//     if(num%div==0){
+//     if(num%div===0){
 //       esPrimo=false;
 //       break;
 //     }
@@ -48,23 +48,23 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 //TAREA 4
 
-let nota = prompt("Ingrese su nota para saber su calificacion").toUpperCase();
+// let nota = prompt("Ingrese su nota para saber su calificacion").toUpperCase();
 
-switch(nota){
-  case"A":
-    console.log("Su calificacion: Excelente");
-    break;
-  case"B":
-    console.log("Su calificacion: Buena");
-    break;
-  case"C":
-    console.log("Su calificacion: Regular");
-    break;
-  case"D":
-    console.log("Su calificacion: Suficiente");
-    break;
-  case"F":
-    console.log("Su calificacion: No suficiente");
-    break;
-  default: console.log("Nota ingresada NO valida");
-}
+// switch(nota){
+//   case"A":
+//     console.log("Su calificacion: Excelente");
+//     break;
+//   case"B":
+//     console.log("Su calificacion: Buena");
+//     break;
+//   case"C":
+//     console.log("Su calificacion: Regular");
+//     break;
+//   case"D":
+//     console.log("Su calificacion: Suficiente");
+//     break;
+//   case"F":
+//     console.log("Su calificacion: No suficiente");
+//     break;
+//   default: console.log("Nota ingresada NO valida");
+// }
