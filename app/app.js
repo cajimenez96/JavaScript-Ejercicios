@@ -11,3 +11,12 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   C- Regular
   D- Suficiente
   F- No Suficiente */
+
+
+  const numero1 = prompt("ingrese el numero");
+  numero1= parseInt(numero);
+  if (numero1 % 2 === 0) {
+    console.log ("el numero es par");
+  } else {
+    console.log ("el numero es impar")
+  }
