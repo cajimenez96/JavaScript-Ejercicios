@@ -11,3 +11,20 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   C- Regular
   D- Suficiente
   F- No Suficiente */
+
+
+/* Ejercicio N°1*/
+const numero1 = prompt("ingresa un numero");
+const numero2 = prompt("ingresa un numero");
+const numero3 = prompt("ingresa un numero");
+
+if (numero1 > numero2 && numero1 > numero3){
+  console.log("el numero1 es mayor");
+}else if (numero2 > numero1 && numero2 > numero3){
+  console.log("el numero2 es mayor");
+}else if (numero3 > numero1 && numero3 > numero2){
+  console.log("el numero3 es mayor");
+} else{
+  console.log('son iguales');
+}
+
