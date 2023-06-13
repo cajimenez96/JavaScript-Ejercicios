@@ -41,3 +41,24 @@ function ejercicio2(){
   }
 
 }
+
+/* Ejercicio N°3*/
+function ejercicio3(){
+  const numero = prompt('Ingrese un numero');
+  
+  let contador = 1;
+  let divisiones = 0;
+
+  while(contador <= numero){
+    if(numero % contador == 0){
+      divisiones = divisiones + 1;
+    }
+    contador = contador + 1;
+  }
+
+  if(divisiones == 2){
+    console.log('es primo');
+  }else{
+    console.log('No es primo')
+  }
+}
