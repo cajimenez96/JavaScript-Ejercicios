@@ -139,3 +139,22 @@ switch(valor) {
 }
 
 
+
+/*---------Ejecicio N°3---------*/
+
+let esPrimo = prompt("Ingrese un valor");
+let i = 2;
+let opMath = Math.sqrt(esPrimo);
+
+function Primo(esPrimo){
+while(i <= opMath) {
+  switch(esPrimo % i) {
+    case 0:
+      return false;
+      break;
+  }
+  i++;
+}
+return true;
+}
+
