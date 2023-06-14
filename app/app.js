@@ -157,3 +157,12 @@ while(i <= opMath) {
 }
 return true;
 }
+
+switch(Primo(esPrimo)) {
+  case true:
+    console.log(esPrimo, "es primo");
+    break;
+  default:
+    console.log(esPrimo, "no es primo");
+    
+}
