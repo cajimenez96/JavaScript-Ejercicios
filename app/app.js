@@ -29,12 +29,30 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   // }
 
   // TAREA 2
-  let numero = prompt('Ingresa un numero') ;
-  numero = numero %2;
-  console.log(numero);
+  // let numero = prompt('Ingresa un numero') ;
+  // numero = numero %2;
+  // console.log(numero);
 
-  if (numero %2 == 0) {
-    console.log('El numero es par');
-  } else {
-    console.log('El numero es impar');
+  // if (numero %2 == 0) {
+  //   console.log('El numero es par');
+  // } else {
+  //   console.log('El numero es impar');
+  // }
+
+
+  // TAREA 4
+  let nota = prompt('Ingrese su calificacion').toUpperCase();
+  console.log(nota);
+  
+  if (nota == 'A') {
+    console.log('Excelente');
+
+  } else if (nota == 'B'){
+    console.log('Buena');
+  } else if (nota == 'C'){
+    console.log('Regular');
+  } else if (nota == 'D'){
+    console.log('Suficiente');
+  } else if (nota == 'F'){
+    console.log('No Suficiente');
   }
