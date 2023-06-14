@@ -125,3 +125,17 @@ else {
  }
 
 
+/*---------Ejecicio N°2---------*/
+
+let num4 = prompt("Ingresa valor aqui");
+let valor = num4 % 2 ;
+
+switch(valor) {
+  case 0:
+    console.log("El valor:", num4 ,"es par");
+    break;
+  default:
+    console.log("El valor:", num4 ,"es impar");
+}
+
+
