@@ -166,3 +166,31 @@ switch(Primo(esPrimo)) {
     console.log(esPrimo, "no es primo");
     
 }
+
+/*---------Ejecicio N°4---------*/
+let calificacion = parseInt(prompt("Ingrese la calificacion"));
+
+switch(calificacion){
+  case 10:
+    console.log("A- Excelente");
+    break;
+
+  case 9, 8:
+    console.log("B- Buena");
+    break;
+
+  case 7:
+    console.log("C- Regular");
+    break;
+
+  case 6:
+    console.log("D- Suficiente");
+    break;
+
+  case 5, 4, 3, 2 ,1:
+    console.log("F- Insuficiente");
+    break;
+
+  default:
+    console.log("El valor ingresado no es valido");
+}
