@@ -62,3 +62,27 @@ function ejercicio3(){
     console.log('No es primo')
   }
 }
+
+/* Ejercicio N°4*/
+function ejercicio4(){
+  const nota = prompt("ingresa la nota").toUpperCase();
+    switch (nota) {
+      case "A":
+        console.log("Excelente");
+      break;
+      case "B":
+        console.log("Buena");
+      case "C":
+          console.log("Regular");
+      break;
+      case "D":
+          console.log("Suficiente");
+      break;    
+      case "F":
+          console.log("No Suficiente");
+      break;   
+      default:
+        console.log("error")
+        break;
+  }
+}
