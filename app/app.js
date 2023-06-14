@@ -85,4 +85,43 @@ else {
   else {
     console.log("F- Insuficiente");
   }  
-}
+} 
+
+/*----------EJERCICOS CON WHILE y SWICH----------*/
+
+/*---------Ejecicio N°1---------*/
+
+ let num1 = parseInt(prompt("Ingrese su Primer valor"));
+ let num2 = parseInt(prompt("Ingrese su Segundo valor"));
+ let num3 = parseInt(prompt("Ingrese su Tercer valor"));
+ let mayor;
+ let repetidos = false;
+
+ switch (true) {
+  case num1 > num2 && num1 > num3:
+    mayor = num1;
+    break;
+
+  case num2 > num1 && num2 > num3:
+    mayor = num2;
+    break;
+
+  case num3 > num1 && num3 > num2:
+    mayor = num3;
+  break;
+
+  default:
+    mayor = num1;
+    repetidos = true;
+ }
+
+ console.log("El numero mayor es:", mayor);
+
+ if(repetidos){
+  console.log("Exisen numeros repetidos");
+ }
+ else {
+  console.log("No existen numeros repetidos");
+ }
+
+
