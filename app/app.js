@@ -66,19 +66,55 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO NUMERO 4
 
-const numero6=prompt("Ingresa un Numero");
+// const numero6=prompt("Ingresa un Numero");
 
-if (numero6 == 1 || numero6 == 2 || numero6 == 3)   {
- console.log("Su nota es una F");
- } else if(numero6 == 4 || numero6 == 5) {
-   console.log("Su nota es una D")
- } else if (numero6 == 6 || numero6 == 7) {
-   console.log("Su nota es una C");
- } else if (numero6 == 8) {
-   console.log("Su nota es una B")
-  } else if (numero6 == 9 || numero6 == 10) {
-   console.log("Su nota es una A");
- }
+// if (numero6 == 1 || numero6 == 2 || numero6 == 3)   {
+//  console.log("Su nota es una F");
+//  } else if(numero6 == 4 || numero6 == 5) {
+//    console.log("Su nota es una D")
+//  } else if (numero6 == 6 || numero6 == 7) {
+//    console.log("Su nota es una C");
+//  } else if (numero6 == 8) {
+//    console.log("Su nota es una B")
+//   } else if (numero6 == 9 || numero6 == 10) {
+//    console.log("Su nota es una A");
+//  }
+
+// EJERCICIO NUMERO 1 - SWITCH
+
+// let numero1 = prompt("Ingrese el primer numero");
+// let numero2 = prompt("Ingrese el segundo numero");
+// let numero3 = prompt("Ingrese el tercer numero");
 
 
+// switch(true) { 
+//   case (numero1 > numero2 && numero1 > numero3):
+//     console.log(numero1 + "  es el mayor numero.");
+//     break;
 
+//   case (numero2 > numero1 && numero2 > numero3):
+//     console.log(numero2 + " es el mayor numero.");
+//     break;
+
+//   case (numero3 > numero1 && numero3 > numero2):
+//     console.log(numero3 + "es el mayor numero");
+//     break;
+
+//   case (numero1 == numero2 && numero2 == numero3):
+//     console.log("los numeros son iguales" + numero1);
+
+// }
+
+// EJERCICIO NUMERO 2 - SWITCH
+
+let numero1 = prompt("Ingrese el primer numero");
+
+switch (numero1 % 2){
+  case 0:
+    console.log("Es un numero par");
+    break;
+
+  case 1:
+      console.log("Es un numero impar");
+
+  }
