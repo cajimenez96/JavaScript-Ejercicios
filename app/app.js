@@ -14,23 +14,51 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIOS CON SWITCH
 
-// Ejercicio 2.
+// Ejercicio 2 con switch.
 
-let num = parseInt(prompt("Ingrese un numero del 1 al 5"));
+// let num = parseInt(prompt("Ingrese un numero del 1 al 5"));
 
-switch (num) {
-  case 1:
+// switch (num) {
+//   case 1:
+//   case 3:  
+//   case 5:
+//     console.log("El numero es impar");  
+//   break;
+
+//   case 0:
+//   case 2:
+//   case 4:
+//     console.log("El numero es par");    
+//   break;
+
+//   default:
+//     console.log("El numero ingresado es mayor a 5, por lo que no se puede evaluar");
+// }
+
+// Ejercicio 3 con switch.
+
+let numero = parseInt(prompt("Ingrese un numero del 1 al 10"));
+
+switch (numero) {
+  case 2:
   case 3:  
   case 5:
-    console.log("El numero es impar");  
+  case 7:
+    console.log("El numero es primo");  
   break;
 
   case 0:
-  case 2:
+  case 1:
   case 4:
-    console.log("El numero es par");    
+  case 6:
+  case 8:
+  case 9:
+  case 10:
+    console.log("El numero no es primo");    
   break;
 
   default:
-    console.log("El numero ingresado es mayor a 5, por lo que no se puede evaluar");
+    console.log("El numero ingresado es mayor a 10, por lo que no se puede evaluar");
 }
+
+
