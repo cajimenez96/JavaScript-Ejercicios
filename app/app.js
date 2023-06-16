@@ -41,18 +41,18 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 
   // TAREA 4
-  let nota = prompt('Ingrese su calificacion').toUpperCase();
-  console.log(nota);
+  // let nota = prompt('Ingrese su calificacion').toUpperCase();
+  // console.log(nota);
   
-  if (nota == 'A') {
-    console.log('Excelente');
+  // if (nota == 'A') {
+  //   console.log('Excelente');
 
-  } else if (nota == 'B'){
-    console.log('Buena');
-  } else if (nota == 'C'){
-    console.log('Regular');
-  } else if (nota == 'D'){
-    console.log('Suficiente');
-  } else if (nota == 'F'){
-    console.log('No Suficiente');
-  }
+  // } else if (nota == 'B'){
+  //   console.log('Buena');
+  // } else if (nota == 'C'){
+  //   console.log('Regular');
+  // } else if (nota == 'D'){
+  //   console.log('Suficiente');
+  // } else if (nota == 'F'){
+  //   console.log('No Suficiente');
+  // }
