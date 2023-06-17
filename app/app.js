@@ -107,14 +107,71 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO NUMERO 2 - SWITCH
 
-let numero1 = prompt("Ingrese el primer numero");
+// let numero1 = prompt("Ingrese el primer numero");
 
-switch (numero1 % 2){
-  case 0:
-    console.log("Es un numero par");
+// switch (numero1 % 2){
+//   case 0:
+//     console.log("Es un numero par");
+//     break;
+
+//   case 1:
+//       console.log("Es un numero impar");
+
+//   }
+
+
+// EJERCICIO NUMERO 3 - SWITCH
+
+// let numero = parseInt(prompt("Ingrese un numero"));
+
+// function esPrimo (numero) {
+
+//   switch (true) {
+//     case (numero === 1):
+//       console.log(numero + " no es primo");
+      
+      
+//     case (numero === 2):
+//       console.log(numero + " es primo");
+      
+    
+//     default:
+
+//     for (let i = 2; i < numero; i++) {
+      
+//       if( numero % i === 0) {
+//         console.log(numero + " no es primo");
+       
+//       }
+//     }
+//     console.log(numero + " es primo");
+    
+//   }
+// }
+
+
+// EJERCICIO 4 - SWITCH
+
+let nota = prompt("Ingrese la nota del alumno").toUpperCase();
+
+switch (nota){
+  case "A":
+    console.log("Excelente");
+    break;
+  
+  case "B":
+    console.log("Buena");
+    break;
+  
+  case "C":
+    console.log("Regular");
     break;
 
-  case 1:
-      console.log("Es un numero impar");
-
-  }
+  case "D":
+    console.log("Suficiente");
+    break;
+  
+  case "F":
+    console.log("No suficiente");
+    break;
+}
