@@ -20,15 +20,31 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 
 //EJERCICIO 1 
 
-    let pisos = prompt("Ingrese el numero de pisos para su triangulo")
-    while(pisos<=0||pisos>50||isNaN(pisos)){
-      alert("Ingrese un numero entre 1 y 50");
-      pisos=prompt("Ingrese el numero de pisos para su triangulo");
-    }
-    for(let i=1;i<=pisos;i++){
-      let bloques ='';
-      for(let j=1;j<=i;j++){
-        bloques+="*";
+    // let pisos = prompt("Ingrese el numero de pisos para su triangulo")
+    // while(pisos<=0||pisos>50||isNaN(pisos)){
+    //   alert("Ingrese un numero entre 1 y 50");
+    //   pisos=prompt("Ingrese el numero de pisos para su triangulo");
+    // }
+    // for(let i=1;i<=pisos;i++){
+    //   let bloques ='';
+    //   for(let j=1;j<=i;j++){
+    //     bloques+="*";
+    //   }
+    //   console.log(bloques);
+    // }
+
+//EJERCICIO 2
+    let total = 0;
+    let stop = false;
+      while(!stop){
+      let index=prompt("Ingrese un numero")
+      while (isNaN(index)) {
+        alert("Ingresa un numero, capo");
+        index=prompt("meta pone un numero")
       }
-      console.log(bloques);
-    }
+      if(index===null){
+        stop=true;
+        console.log(total);
+      }
+      total+=parseInt(index);
+      }
