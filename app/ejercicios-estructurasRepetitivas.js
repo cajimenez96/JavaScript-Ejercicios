@@ -34,17 +34,39 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
     // }
 
 //EJERCICIO 2
-    let total = 0;
-    let stop = false;
-      while(!stop){
-      let index=prompt("Ingrese un numero")
-      while (isNaN(index)) {
-        alert("Ingresa un numero, capo");
-        index=prompt("meta pone un numero")
+    // let total = 0;
+    // let stop = false;
+    //   while(!stop){
+    //   let index=prompt("Ingrese un numero")
+    //   while (isNaN(index)) {
+    //     alert("Ingresa un numero, capo");
+    //     index=prompt("meta pone un numero")
+    //   }
+    //   if(index===null){
+    //     stop=true;
+    //     console.log(total);
+    //   }
+    //   total+=parseInt(index);
+    //   }
+
+//EJERCICIO 3
+
+    let userPass = "1234";
+    let userName = "abcd";
+    let indexUser=prompt("User ID");
+    let indexPass=prompt("Password");
+
+    let intentos = 0;
+
+    while (intentos<2){
+      if(indexUser!==userName||indexPass!==userPass){
+        alert("User or password incorrect, please retry.")
+        indexUser=prompt("User ID");
+        indexPass=prompt("Password");
+        intentos++;
+      }else  if(indexUser===userName&&indexPass===userPass){
+        alert("Bienvenido");
+        break;
       }
-      if(index===null){
-        stop=true;
-        console.log(total);
-      }
-      total+=parseInt(index);
-      }
+    }
+    if(intentos===2)alert("ERROR!");
