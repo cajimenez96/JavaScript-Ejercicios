@@ -17,3 +17,18 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 
 3. Crear un programa que pida ingresar usuario y contraseña. El programa debe permitir hasta 3 intentos, cuando el usuario y/o la contraseña sean incorrectos. Si se ingresa correctamente ambos antes de 3 intentos erróneos, debe mostrar un mensaje de bienvenida. Si se ingresan 3 intentos erróneos, debe mostrar un mensaje de error y terminar el programa. El usuario y la contraseña ya deben estar guardadas en variables.
 */
+
+//EJERCICIO 1 
+
+    let pisos = prompt("Ingrese el numero de pisos para su triangulo")
+    while(pisos<=0||pisos>50||isNaN(pisos)){
+      alert("Ingrese un numero entre 1 y 50");
+      pisos=prompt("Ingrese el numero de pisos para su triangulo");
+    }
+    for(let i=1;i<=pisos;i++){
+      let bloques ='';
+      for(let j=1;j<=i;j++){
+        bloques+="*";
+      }
+      console.log(bloques);
+    }
