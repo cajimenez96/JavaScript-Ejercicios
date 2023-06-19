@@ -17,22 +17,41 @@
 
 // 2. Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo números. Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
 
-let suma = 0 
+// let suma = 0 
 
-do {
-	var num = prompt("Ingrese un numero");
-	if (Number(num) == num) {
-		num = Number(num)
-		suma = suma + num;
-	} else {
-		if(num != undefined) {
-			alert(`"${num}" NO es un caracter valido`);
-	}
-	}
-} while (num != undefined);
+// do {
+// 	var num = prompt("Ingrese un numero");
+// 	if (Number(num) == num) {
+// 		num = Number(num)
+// 		suma = suma + num;
+// 	} else {
+// 		if(num != undefined) {
+// 			alert(`"${num}" NO es un caracter valido`);
+// 	}
+// 	}
+// } while (num != undefined);
 
-console.log(suma);
+// console.log(suma);
 
 
 // 3. Crear un programa que pida ingresar usuario y contraseña. El programa debe permitir hasta 3 intentos, cuando el usuario y/o la contraseña sean incorrectos. Si se ingresa correctamente ambos antes de 3 intentos erróneos, debe mostrar un mensaje de bienvenida. Si se ingresan 3 intentos erróneos, debe mostrar un mensaje de error y terminar el programa. El usuario y la contraseña ya deben estar guardadas en variables.
 
+contador = 1;
+let usuario = "agustin";
+let contraseña = "123";
+
+usuario = prompt("ingrese su usuario").toLowerCase();
+contraseña = prompt("ingrese su contraseña").toLowerCase();
+
+if (usuario != "agustin" || contraseña != "123") {
+while (contador < 3) {
+    usuario = prompt("ingrese su usuario").toLowerCase();
+    contraseña = prompt("ingrese su contraseña").toLowerCase();
+    contador++
+}
+}
+if (usuario == "agustin" && contraseña == "123") {
+    console.log("Bienvenido");
+} else {
+    console.log("Usuario y contraseña incorrectos"); 	
+}
