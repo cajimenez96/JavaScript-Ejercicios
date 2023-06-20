@@ -58,15 +58,13 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 
     let intentos = 0;
 
-    while (intentos<2){
-      if(indexUser!==userName||indexPass!==userPass){
+      while(indexUser!==userName||indexPass!==userPass){
         alert("User or password incorrect, please retry.")
         indexUser=prompt("User ID");
         indexPass=prompt("Password");
         intentos++;
-      }else  if(indexUser===userName&&indexPass===userPass){
+        if(intentos===2)break;
+      } 
+      if(indexUser===userName&&indexPass===userPass){
         alert("Bienvenido");
-        break;
-      }
-    }
-    if(intentos===2)alert("ERROR!");
+      }else alert("ERROR!");
