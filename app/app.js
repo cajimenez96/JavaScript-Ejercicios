@@ -152,26 +152,26 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 
 // EJERCICIO 4 - SWITCH
 
-let nota = prompt("Ingrese la nota del alumno").toUpperCase();
+// let nota = prompt("Ingrese la nota del alumno").toUpperCase();
 
-switch (nota){
-  case "A":
-    console.log("Excelente");
-    break;
+// switch (nota){
+//   case "A":
+//     console.log("Excelente");
+//     break;
   
-  case "B":
-    console.log("Buena");
-    break;
+//   case "B":
+//     console.log("Buena");
+//     break;
   
-  case "C":
-    console.log("Regular");
-    break;
+//   case "C":
+//     console.log("Regular");
+//     break;
 
-  case "D":
-    console.log("Suficiente");
-    break;
+//   case "D":
+//     console.log("Suficiente");
+//     break;
   
-  case "F":
-    console.log("No suficiente");
-    break;
-}
+//   case "F":
+//     console.log("No suficiente");
+//     break;
+// }
