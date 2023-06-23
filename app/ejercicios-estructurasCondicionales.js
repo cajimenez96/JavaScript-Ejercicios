@@ -12,14 +12,31 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   D- Suficiente
   F- No Suficiente */
 
-  const numero1 = prompt ('ingrese un numero')
-  const numero2 = prompt ('ingrese un numero')
-  const numero3 = prompt ('ingrese un numero')
+//   const numero1 = prompt ('ingrese un numero')
+//   const numero2 = prompt ('ingrese un numero')
+//   const numero3 = prompt ('ingrese un numero')
 
-if (numero1 > numero2 && numero1 > numero3)
-console.log ('la variable numero 1 es la mayor') {
-  else if (numero2 > numero1 && numero2 > numero3)
-  }
-  else if (numero3 > numero1 && numero3 > numero2) {
-    console
-  }
+// if (numero1 > numero2 && numero1 > numero3)
+// console.log ('la variable numero 1 es la mayor') {
+//   else if (numero2 > numero1 && numero2 > numero3)
+//   }
+//   else if (numero3 > numero1 && numero3 > numero2) {
+//     console
+//   }
+
+let numero1 = parseInt(prompt ("ingrese un numero")) 
+let numero2 = parseInt(prompt ("ingrese un numero"))
+let numero3 = parseInt(prompt ("ingrese un numero"))
+
+if (numero1 > numero2 && numero1 > numero3) {
+  console.log ("numero 1 es mayor")
+}
+else if (numero2 > numero1 && numero2 > numero3) {
+  console.log ("numero 2 es mayor")
+}
+else if (numero3 > numero1 && numero3 > numero2) {
+  console.log ("numero 3 es mayor")
+}
+else 
+console.log ("los 3 numero ingresados son iguales")
+
