@@ -19,8 +19,24 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 */
 
 //TAREA 1)
-let numero = parseInt(prompt('ingrese un numero'));
-for (let index = 0 ; index < numero; index++) {
-  let astericos = '*' + numero;
-  console.log(`${numero}`);
-}
+// let numero = parseInt(prompt('ingrese un numero'));
+// for (let index = 0 ; index < numero; index++) {
+//   let astericos = '*' + numero;
+//   console.log(`${numero}`);
+// }
+
+
+
+// //TAREA 2)
+  let numeros = parseInt(prompt('ingrese sus numeros'));
+ while (numeros >= 0) {
+   numeros = parseInt(prompt('ingrese sus numeros'));
+  }
+ 
+//  let numeros = parseInt(prompt('ingrese sus numeros'));
+//  if (numeros >= 0) {
+//   numeros = parseInt(prompt('ingrese sus numeros'));
+//  } else { (numeros == '')
+//   alert('Esto no es un numero');
+  
+//  }
