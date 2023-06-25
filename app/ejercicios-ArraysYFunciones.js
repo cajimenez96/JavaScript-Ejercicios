@@ -25,8 +25,14 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 // }
 
 //ACTIVIDAD 2
+// let numeros = [];
+// for(i=0;i<20;i++){
+//   numeros.push(Math.floor(Math.random()*100));
+//   console.log(numeros[i]);
+// }
+
+//ACTIVIDAD 3
 let numeros = [];
-for(i=0;i<20;i++){
-  numeros.push(Math.floor(Math.random()*100));
-  console.log(numeros[i]);
-}
+// let numero= parseInt(prompt('ingrese un numero'));
+numeros.push(parseInt(prompt('ingrese un numero')))
+console.log(numeros)
