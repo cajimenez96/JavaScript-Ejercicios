@@ -13,13 +13,20 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 
 //ACTIVIDAD 1
-let colores = ['turquesa','verde','rojo','azul','morado','lila','negro','blanco','amarillo','rosa']
+// let colores = ['turquesa','verde','rojo','azul','morado','lila','negro','blanco','amarillo','rosa']
 
-for (let i = 0; i<colores.length;i++){
-  console.log(colores[i])
-}
-console.log('------');
-colores.sort();
-for (let i = 0; i<colores.length;i++){
-  console.log(colores[i])
+// for (let i = 0; i<colores.length;i++){
+//   console.log(colores[i])
+// }
+// console.log('------');
+// colores.sort();
+// for (let i = 0; i<colores.length;i++){
+//   console.log(colores[i])
+// }
+
+//ACTIVIDAD 2
+let numeros = [];
+for(i=0;i<20;i++){
+  numeros.push(Math.floor(Math.random()*100));
+  console.log(numeros[i]);
 }
