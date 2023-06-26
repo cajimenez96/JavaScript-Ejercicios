@@ -12,6 +12,77 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
   D- Suficiente
   F- No Suficiente */
 
+// Ejercicio 1
+
+  // let numero1 = parseInt(prompt("ingrese el numero 1"));
+  // let numero2 = parseInt(prompt("ingrese el numero 2"));
+  // let numero3 = parseInt(prompt("ingrese el numero 3"));
+
+  // if (numero1 > numero2 && numero1 > numero3 ) {
+  //    console.log("el numero 1 es mayor")
+  // } 
+  // else if (numero2 > numero1 && numero2 > numero3 ) {
+  //   console.log("numero 2 es mayor")
+  // }
+  // else if (numero3 > numero1 && numero3 > numero2 ) {
+  //   console.log("numero 3 es mayor")
+  // }
+  // else {
+  //   console.log("Los numeros son iguales")
+  // }
+
+// Ejercicio 2
+
+// let numero = parseInt(prompt("ingrese un numero"))
+
+// if (numero % 2 == 0){
+//   console.log("numero par")
+// }
+// else {
+//   console.log("numero impar")
+// }
+
+// Ejercicio 3
+
+// let numero = parseInt(prompt('ingrese un numero'));
+
+// let divisores=0;
+
+// for(let i =1 ; i <=numero ; i ++) {
+//  if(numero % i  == 0)
+//    divisores = divisores + 1
+// }
+// if(divisores==2)
+//   console.log('es primo');
+// else{
+//   console.log('no primo');
+// }
+
+// Ejercicio 4
+
+// let nota = prompt("Ingrese la nota").toUpperCase();
+
+// if (nota == "A") {
+//   console.log("Excelente");
+// }
+// else if (nota == "B") {
+//   console.log("Buena");
+// }
+// else if (nota == "C") {
+//   console.log("Regular");
+// }
+// else if (nota == "D") {
+//   console.log("Suficiente");
+// }
+// else if (nota == "F") {
+//   console.log("No Suficiente");
+// }
+// else {
+//   console.log("Ingrese una nota valida (A-B-C-D-F)");
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////
+
 // EJERCICIOS CON SWITCH
 
 // Ejercicio 2 con switch.
