@@ -13,9 +13,11 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 
 
+
+
 //----------------Ejercicio 2--------------
 
-let array=[];
+// let array=[];
 let min;
 let max;
 
@@ -24,11 +26,25 @@ function numerosRamdom (min,max){
 }
 
 
-for(let i=0; i<20; i++){
+// for(let i=0; i<20; i++){
+//     array.push(numerosRamdom(0,100));
+// }
+
+// console.log(array);
+
+
+
+
+
+
+//----------------Ejercicio 3--------------
+
+let array=[];
+numeros=parseInt(prompt("Ingrese la cantidad de numeros aletorios que desea:"));
+
+for(let i=0;i<numeros;i++){
     array.push(numerosRamdom(0,100));
 }
 
 console.log(array);
-
-
 
