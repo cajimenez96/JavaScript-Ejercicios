@@ -32,7 +32,25 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 // }
 
 //ACTIVIDAD 3
-let numeros = [];
-// let numero= parseInt(prompt('ingrese un numero'));
-numeros.push(parseInt(prompt('ingrese un numero')))
-console.log(numeros)
+// let numeros = [];
+// numeros.push(parseInt(prompt('ingrese un numero')))
+// console.log(numeros);
+
+//ACTIVIDAD 4
+let colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+let colorUsuario = prompt("Introduce un color:");
+let encontrado = false;
+
+for (let i = 0; i < colores.length; i++) {
+  if (colores[i] === colorUsuario) {
+    encontrado = true;
+    break;
+  }
+}
+
+if (encontrado) {
+  console.log("El color está en el array.");
+} else {
+  console.log("El color no está en el array.");
+}
+
