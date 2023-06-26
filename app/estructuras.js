@@ -51,14 +51,12 @@
 // console.log('9');
 // console.log('10');
 
-
 // let index = 1;
 
 // while (index <= 10) {
 //   console.log(index);
 //   index++;
 // }
-
 
 // let index2 = 2;
 
