@@ -10,3 +10,19 @@ Desarrollar los siguientes problemas:
 5. El usuario ingrese un string con varias palabras separadas por coma en un prompt y se deben convertir en un array, (el usuario ingresa: "1,2,3,4,5" y se convierte en [1,2,3,4,5]).
 
 TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCION*/
+
+
+
+//----------------Ejercicio 2--------------
+
+let array=[];
+let min=0;
+let max=100;
+
+for(let i=0; i<20; i++){
+    array.push(Math.floor(Math.random() * (max - min + 1)) + min);
+}
+
+console.log(array);
+
+
