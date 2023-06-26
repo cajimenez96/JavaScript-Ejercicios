@@ -11,20 +11,27 @@ Desarrollar los siguientes problemas:
 
 TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCION*/
 
+//FUNCIONES
 
+function numerosRamdom (min,max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function encontrarColor(data){
+    for(let i=0;i<array.length;i++){
+        if(array[i]==data){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
 
 
 
 //----------------Ejercicio 2--------------
 
 // let array=[];
-let min;
-let max;
-
-function numerosRamdom (min,max){
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
 
 // for(let i=0; i<20; i++){
 //     array.push(numerosRamdom(0,100));
@@ -38,7 +45,7 @@ function numerosRamdom (min,max){
 
 
 //----------------Ejercicio 3--------------
-
+/*
 let array=[];
 numeros=parseInt(prompt("Ingrese la cantidad de numeros aletorios que desea:"));
 
@@ -47,4 +54,20 @@ for(let i=0;i<numeros;i++){
 }
 
 console.log(array);
+*/
 
+
+
+
+
+
+//----------------Ejercicio 4--------------
+
+let array=["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+let color=prompt("Ingrese un color:");
+
+if(encontrarColor(color)==true){
+    console.log("El color ingresado está en el array");
+}else{
+    console.log("El color ingresado no se encotró");
+}
