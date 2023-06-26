@@ -24,23 +24,35 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 //     console
 //   }
 
-// EJERCICIO 1 - DETERMINO CUAL ES EL NUMERO MAYOR Y SI SON IGUALES O NO
+//  EJERCICIO 1 - DETERMINO CUAL ES EL NUMERO MAYOR Y SI SON IGUALES O NO
 
-// let numero1 = parseInt(prompt ("ingrese un numero")) 
-// let numero2 = parseInt(prompt ("ingrese un numero"))
-// let numero3 = parseInt(prompt ("ingrese un numero"))
+//  let numero2 = parseInt(prompt ("ingrese un numero"))
+//  let numero1 = parseInt(prompt ("ingrese un numero")) 
+//  let numero3 = parseInt(prompt ("ingrese un numero"))
 
-// if (numero1 > numero2 && numero1 > numero3) {
-//   console.log ("numero 1 es mayor")
+//  if (numero1 > numero2 && numero1 > numero3) {
+//    console.log ("numero 1 es mayor")
+//  }
+//  else if (numero2 > numero1 && numero2 > numero3) {
+//    console.log ("numero 2 es mayor")
+//  }
+//  else if (numero3 > numero1 && numero3 > numero2) {
+//    console.log ("numero 3 es mayor")
+//  }
+//  else { 
+//  console.log ("los 3 numero ingresados son iguales") }
+
+
+
+// RESOLUCION NRO2 DEL MISMO EJERCICIO
+
+// if ((numero3==numero2)&&(numero3==numero1)&&(numero2==numero3)){
+//   console.log("los 3 numero ingresados son iguales")
 // }
-// else if (numero2 > numero1 && numero2 > numero3) {
-//   console.log ("numero 2 es mayor")
-// }
-// else if (numero3 > numero1 && numero3 > numero2) {
-//   console.log ("numero 3 es mayor")
-// }
-// else { 
-// console.log ("los 3 numero ingresados son iguales") }
+// else {console.log (`el numero mayor es ${Math.max(numero1,numero2,numero3)}`)}
+
+
+
 
 
 
@@ -56,6 +68,7 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 // }
 
 // PRUEBA EJERCICIO 3
+
 // let numero = parseInt(prompt("Ingrese un numero"))
 // let divisores=0 
 
@@ -71,18 +84,47 @@ Vamos a crear nuestro app.js y vamos a tratar de resolver lo siguientes ejercici
 // }
 
 
-// EJERCICIO NRO 4 - DETERMINAR SI UN NUMERO ES PRIMO O NO
 
-let numero = parseInt(prompt('ingrese un numero'));
 
-let divisores=0;
 
-for(let i =1 ; i <=numero ; i ++) {
- if(numero % i  == 0)
-   divisores = divisores + 1
+
+// EJERCICIO NRO 3 - DETERMINAR SI UN NUMERO ES PRIMO O NO
+
+//   let numero = parseInt(prompt('ingrese un numero'));
+
+//   let divisores = 0;
+
+//  for (let i = 1 ; i <= numero ; i ++) {
+//   if (numero % i  == 0)
+//     divisores = divisores + 1
+//  }
+//  if (divisores==2)
+//    console.log('es primo');
+//  else {
+//    console.log('no primo');
+//  }
+
+// EJERCICIO NRO. 4 NOTA DE ALUMNOS
+
+let nota = prompt("Ingrese la nota").toUpperCase()
+
+if (nota=="A") {
+  console.log("Excelente")
 }
-if(divisores==2)
-  console.log('es primo');
-else{
-  console.log('no primo');
+else if (nota=="B"){
+  console.log("Buena")
 }
+else if (nota=="C"){
+  console.log("Regular")
+}
+else if (nota=="D"){
+  console.log("Suficiente")
+}
+else if (nota=="F"){
+  console.log("No Suficiente")
+}
+else {
+  console.log("La letra ingresada no es valida")
+}
+
+
