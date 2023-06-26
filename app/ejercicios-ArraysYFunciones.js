@@ -16,13 +16,19 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 //----------------Ejercicio 2--------------
 
 let array=[];
-let min=0;
-let max=100;
+let min;
+let max;
+
+function numerosRamdom (min,max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
 for(let i=0; i<20; i++){
-    array.push(Math.floor(Math.random() * (max - min + 1)) + min);
+    array.push(numerosRamdom(0,100));
 }
 
 console.log(array);
+
 
 
