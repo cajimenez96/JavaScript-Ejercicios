@@ -26,7 +26,9 @@ function encontrarColor(data){
         }
     }
 }
-
+function separarComa(cadena){
+    return cadena.split(',')
+}
 
 
 //----------------Ejercicio 2--------------
@@ -62,7 +64,7 @@ console.log(array);
 
 
 //----------------Ejercicio 4--------------
-
+/*
 let array=["azul", "amarillo", "rojo", "verde", "café", "rosa"];
 let color=prompt("Ingrese un color:");
 
@@ -71,3 +73,18 @@ if(encontrarColor(color)==true){
 }else{
     console.log("El color ingresado no se encotró");
 }
+*/
+
+
+
+
+
+
+//----------------Ejercicio 5--------------
+
+let array1=prompt("ingrese distintas palabras separadas por coma");
+let array2=[];
+
+array2=separarComa(array1);
+console.log(array1);
+console.log(array2);
