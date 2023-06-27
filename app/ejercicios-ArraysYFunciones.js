@@ -52,16 +52,16 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 // }
 
 
- let colores = ["azul", "amarillo", "rojo", "verde", "cafe", "rosa"];
+//  let colores = ["azul", "amarillo", "rojo", "verde", "cafe", "rosa"];
 
- let color = prompt('ingresar un color');
+//  let color = prompt('ingresar un color');
 
- for (i=0;i<colores.length;i++){
-   let valor = colores[i];
-   if(valor == color){
-     console.log('el color esta en el array');
-     i=10;
-   }else{
-     console.log('el color no esta en el array');
-   }
- }
+//  for (i=0;i<colores.length;i++){
+//    let valor = colores[i];
+//    if(valor == color){
+//      console.log('el color esta en el array');
+//      i=10;
+//    }else{
+//      console.log('el color no esta en el array');
+//    }
+//  }
