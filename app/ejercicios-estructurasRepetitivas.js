@@ -35,3 +35,37 @@ for(i=0 ; i<cantAsteriscos ; i++)
 if(cont === contMax) {
   console.log("Se exedio el numero de intentos");
 }
+
+/*---------Ejecicio N°2---------*/
+
+let cadena = [];
+let num;
+
+
+
+do {
+ num = prompt("Ingrese los valores que desee");
+
+  if(num !== null)
+  {
+    if(!isNaN(num))
+    {
+    cadena.push(num);
+    }
+    else{
+      console.log("No es valido");
+    }
+  }
+
+} while(num !== null);
+
+
+
+if(cadena.length > 0) {
+  let cadenas = cadena.join("-");
+  console.log("Los valores son:", cadenas);
+} else {
+  console.log("No se encontraron cadenas");
+}
+
+
