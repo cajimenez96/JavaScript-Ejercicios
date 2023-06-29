@@ -26,13 +26,25 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 // EJERCICIO NUMERO 2
 
-const array = [];
+// const array = [];
 
-for (let i = 0; i < 20; i++){
-    const numero = Math.random() * 100;
-    const entero = parseInt(numero);
-    array.push(entero);
-    array.join(",");
+// for (let i = 0; i < 20; i++){
+//     const numero = Math.random() * 100;
+//     const entero = parseInt(numero);
+//     array.push(entero);
+//     array.join(",");
+// }
+
+// console.log(array);
+
+// EJERCICIO NUMERO 3
+let array = [];
+let cantnumeros = prompt("Cuantos numeros desea generar?");
+
+for (let i = 0; i < cantnumeros; i++){
+let numero = Math.random() * 100;
+let entero = parseInt(numero);
+
+array.push(entero);
 }
-
 console.log(array);
