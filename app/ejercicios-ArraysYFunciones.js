@@ -3,7 +3,7 @@ Trabajamos con Arrays
 
 Desarrollar los siguientes problemas:
 
-1. Desarrollar un array con 10 colores diferentes. Mostrarlos en consola, ordenarlos y volverlos a mostrar en consola.
+1. Desarrollar un array con 10 colores diferentes. Mostrarlos en consola, ordenarlos y volverlos a mostrar en consola.  (metodo sort)
 2. Crear un array vacío, generar 20 numeros al azar, guardarlos en el array vacio y luego mostrarlos por consola
 3. Crear un array vacío, luego generar N números al azar y guardarlos en un array, N es introducido por el usuario a través de un prompt.
 4. Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "café", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.
@@ -81,10 +81,11 @@ if(encontrarColor(color)==true){
 
 
 //----------------Ejercicio 5--------------
-
+/*
 let array1=prompt("ingrese distintas palabras separadas por coma");
 let array2=[];
 
 array2=separarComa(array1);
 console.log(array1);
 console.log(array2);
+*/

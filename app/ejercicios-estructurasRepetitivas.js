@@ -89,7 +89,7 @@ if(confirm("Desea seguir escribiendo otro numero?")==true){
 
 
 //-----------Ejercicio 3-------------
-
+/*
 let usuario="franco";
 let contraseña="0000";
 
@@ -122,3 +122,4 @@ for(let index=2;index>=0;index--){
     alert("ERROR - Maximos intentos superado. Intente de nuevo mas tarde")
   }
 }
+*/
