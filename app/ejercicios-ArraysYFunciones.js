@@ -52,13 +52,26 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 // EJERCICIO NUMERO 4
 
-const array = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+// const array = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
 
-let color = prompt("Ingrese su color favorito");
+// let color = prompt("Ingrese su color favorito");
 
-if(array.includes(color)){
-   console.log("El color se encuentra dentro del array"); 
-} else {
-    console.log("No esta en el array");
+// if(array.includes(color)){
+//    console.log("El color se encuentra dentro del array"); 
+// } else {
+//     console.log("No esta en el array");
+// }
+
+// EJERCICIO NUMERO 5
+
+function creadorArrays() {
+
+const string = prompt("Ingrese texto o numeros, seguidos de una coma");
+
+const separado = string.split(",");
+
+console.log(separado);
+
 }
 
+creadorArrays();
