@@ -11,3 +11,10 @@ Difícil:
 Muy dificil:
   piedra papel o tijera
 Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. */
+
+// acitividad 1
+function suma(a,b){
+return a+b;
+}
+
+alert(suma(5,6))
