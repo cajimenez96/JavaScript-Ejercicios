@@ -95,30 +95,110 @@
 
 // alert("Su calificacion es " + calificacion);
 
-let cadenas = [];
+// let cadenas = [];
 
-while (true) {
-    var confirmar = confirm("Deseas ingresar una cadena de texto?");
+// while (true) {
+//     var confirmar = confirm("Deseas ingresar una cadena de texto?");
 
-    if (confirmar = false) {
-        break;
-    } 
+//     if (confirmar = false) {
+//         break;
+//     } 
 
-    var cadena = prompt("Ingrese una cadena de texto"); 
+//     var cadena = prompt("Ingrese una cadena de texto"); 
 
-    if (cadena === null) {
-        break;
-    } 
+//     if (cadena === null) {
+//         break;
+//     } 
 
-    cadenas.push(cadena);
+//     cadenas.push(cadena);
 
-}
+// }
 
-if (cadenas.length > 0) {
- var resultado = cadenas.join("-");
- console.log("Cadenas concatenadas:", resultado);
+// if (cadenas.length > 0) { 
+//  var resultado = cadenas.join("-");
+//  console.log("Cadenas concatenadas:", resultado);
+// } else {
+//     console.log("No se ingresaron cadenas");
+// }
+
+
+
+
+// let suma = 0;
+// let numero;
+
+// while (true) {
+//   numero = prompt("Introduce un número:");
+
+//   // Comprobar si se pulsó "cancelar" o no se introdujo un número válido
+//   if (numero === null || numero.trim() === "") {
+//     break;
+//   }
+
+//   // Comprobar si el valor introducido es un número válido
+//   if (isNaN(numero)) {
+//     alert("No es un número válido. Inténtalo de nuevo.");
+//     continue;
+//   }
+
+//   // Convertir el número a tipo numérico y sumarlo a la variable 'suma'
+//   numero = Number(numero);
+//   suma += numero;
+// }
+
+// // Mostrar la suma total de los números introducidos
+// alert("La suma total es: " + suma);
+
+// EJERCICIO NUMERO 6
+
+// let i = 1
+
+// while (i <=30){
+//     console.log(String(i).repeat(i));
+//     i = i + 1;
+
+// }
+
+
+// EJERCICIO NUMERO 7
+
+// let numero = parseInt(prompt("Ingrese un numero"));
+// if (numero > 50){
+//     console.log("El numero es mayor a 50")
+// } else{
+//  for (let i = numero; i >= 1; i--) {
+//     console.log(String(i).repeat(i));
+//     }
+// }
+
+// EJERCICIO NUMERO 8
+
+//  let numero = parseInt(prompt("Ingrese un numero"));
+//  let piramide = [];
+
+//  if (numero > 50) {
+//      console.log("El numero es mayor a 50");
+
+//  } else {
+//    for (let i = 1; i <= numero; i++) {
+//     piramide.push(i);
+//     piramide.join(",")
+//     console.log(piramide);
+    
+// }
+
+// }
+
+const number = prompt('Ingrese un número (no mayor de 50): ');
+
+if (number > 50) {
+  console.log('El número ingresado es mayor a 50. Por favor, ingrese un número válido.');
 } else {
-    console.log("No se ingresaron cadenas");
+  let pyramid = '';
+  let row = '';
+  for (let i = 1; i <= number; i++) {
+    row += i;
+    pyramid += row + '\n';
+  }
+  console.log(pyramid);
 }
-
-
