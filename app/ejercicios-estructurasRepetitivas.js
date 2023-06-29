@@ -62,25 +62,25 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 
 // EJERCICIO NUMERO 3
 
-let usuario1 = "Matias";
-let contrasena1 = "mathias123";
-let intentos = 0;
+// let usuario1 = "Matias";
+// let contrasena1 = "mathias123";
+// let intentos = 0;
 
-while(intentos < 3){
+// while(intentos < 3){
 
-let usuario = prompt("Ingrese el usuario");
-let contrasena = prompt("Ingrese la contraseña");
+// let usuario = prompt("Ingrese el usuario");
+// let contrasena = prompt("Ingrese la contraseña");
 
-if (usuario == usuario1 && contrasena == contrasena1) {
-  alert("Bienvenido!");
-  break;
+// if (usuario == usuario1 && contrasena == contrasena1) {
+//   alert("Bienvenido!");
+//   break;
 
-} else {
-  alert("Usuario y/o contraseña incorrectos. Intenta nuevamente");
-  intentos++;
-}
-}
+// } else {
+//   alert("Usuario y/o contraseña incorrectos. Intenta nuevamente");
+//   intentos++;
+// }
+// }
 
-if (intentos === 3) {
-  alert("Has excedido el num maximo de intentos");
-}
+// if (intentos === 3) {
+//   alert("Has excedido el num maximo de intentos");
+// }
