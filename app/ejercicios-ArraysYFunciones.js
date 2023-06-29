@@ -54,8 +54,7 @@ function isThere(){
   return isThere;
 }
 //EJERCICIO 5 
-function makeArray(){
-  let index = prompt('ingrese varias palabras separadas por "comas"');
-  return index.split(',');
-}
+const makeArray = () => prompt('ingrese varias palabras separadas por "comas"').split(',');
+
 console.log(makeArray());
+
