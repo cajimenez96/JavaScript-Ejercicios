@@ -13,8 +13,16 @@ Muy dificil:
 Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. */
 
 // acitividad 1
-function suma(a,b){
-return a+b;
+// function suma(a,b){
+// return a+b;
+// }
+
+// alert(suma(5,6))
+
+// acitividad 2
+
+function invertirPalabra(palabra){
+  return palabra.split("").reverse().join("");
 }
 
-alert(suma(5,6))
+alert(invertirPalabra('Emiliano'));
