@@ -173,32 +173,16 @@
 
 // EJERCICIO NUMERO 8
 
-//  let numero = parseInt(prompt("Ingrese un numero"));
-//  let piramide = [];
+// const number = prompt('Ingrese un número (no mayor de 50): ');
 
-//  if (numero > 50) {
-//      console.log("El numero es mayor a 50");
-
-//  } else {
-//    for (let i = 1; i <= numero; i++) {
-//     piramide.push(i);
-//     piramide.join(",")
-//     console.log(piramide);
-    
+// if (number > 50) {
+//   console.log('El número ingresado es mayor a 50. Por favor, ingrese un número válido.');
+// } else {
+//   let pyramid = '';
+//   let row = '';
+//   for (let i = 1; i <= number; i++) {
+//     row += i;
+//     pyramid += row + '\n';
+//   }
+//   console.log(pyramid);
 // }
-
-// }
-
-const number = prompt('Ingrese un número (no mayor de 50): ');
-
-if (number > 50) {
-  console.log('El número ingresado es mayor a 50. Por favor, ingrese un número válido.');
-} else {
-  let pyramid = '';
-  let row = '';
-  for (let i = 1; i <= number; i++) {
-    row += i;
-    pyramid += row + '\n';
-  }
-  console.log(pyramid);
-}
