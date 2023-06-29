@@ -38,13 +38,27 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 // console.log(array);
 
 // EJERCICIO NUMERO 3
-let array = [];
-let cantnumeros = prompt("Cuantos numeros desea generar?");
 
-for (let i = 0; i < cantnumeros; i++){
-let numero = Math.random() * 100;
-let entero = parseInt(numero);
+// let array = [];
+// let cantnumeros = prompt("Cuantos numeros desea generar?");
 
-array.push(entero);
+// for (let i = 0; i < cantnumeros; i++){
+// let numero = Math.random() * 100;
+// let entero = parseInt(numero);
+
+// array.push(entero);
+// }
+// console.log(array);
+
+// EJERCICIO NUMERO 4
+
+const array = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+
+let color = prompt("Ingrese su color favorito");
+
+if(array.includes(color)){
+   console.log("El color se encuentra dentro del array"); 
+} else {
+    console.log("No esta en el array");
 }
-console.log(array);
+
