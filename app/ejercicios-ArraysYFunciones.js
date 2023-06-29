@@ -13,16 +13,26 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 // EJERCICIO NUMERO 1
 
-const colores = ['rojo', 'azul', 'verde', 'amarillo', 'naranja', 'rosa', 'morado', 'blanco', 'negro', 'gris'];
-console.log("Colores originales " + colores);
+// const colores = ['rojo', 'azul', 'verde', 'amarillo', 'naranja', 'rosa', 'morado', 'blanco', 'negro', 'gris'];
+// console.log("Colores originales " + colores);
 
-function ordenarColores() {
-    
+// function ordenarColores() {
+      
+//     const ordenados = colores.sort();
+//     console.log("Colores ordenados " + ordenados);
+//   }
   
-    const ordenados = colores.sort();
-  
-    
-    console.log("Colores ordenados " + ordenados);
-  }
-  
-  ordenarColores()
+//   ordenarColores()
+
+// EJERCICIO NUMERO 2
+
+const array = [];
+
+for (let i = 0; i < 20; i++){
+    const numero = Math.random() * 100;
+    const entero = parseInt(numero);
+    array.push(entero);
+    array.join(",");
+}
+
+console.log(array);
