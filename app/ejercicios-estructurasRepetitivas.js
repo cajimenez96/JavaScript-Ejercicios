@@ -20,17 +20,43 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 
 // EJERCICIO NUMERO 1
 
-let numero = parseInt(prompt("Ingresa un numero entero"));
+// let numero = parseInt(prompt("Ingresa un numero entero"));
 
-if (numero > 50) {
-  console.log("El numero ingresado es mayor a 50");
+// if (numero > 50) {
+//   console.log("El numero ingresado es mayor a 50");
 
-} else {
-  let triangulo = "";
-  for(let i = 1; i <= numero; i++) {
+// } else {
+//   let triangulo = "";
+//   for(let i = 1; i <= numero; i++) {
     
-    triangulo += "*".repeat(i) + `\n`;
-  }
+//     triangulo += "*".repeat(i) + `\n`;
+//   }
 
-  console.log(triangulo);
-}
+//   console.log(triangulo);
+// }
+
+// EJERCICIO NUMERO 2
+
+// let suma = 0;
+
+// while (true){
+//   let numero = prompt("Ingrese un numero");
+
+//   if (numero === null) {
+//     break;
+//   }
+
+//   const number = parseFloat(numero);
+
+//   if (isNaN(number)) {
+//     alert("No se ha ingresado un numero valido.");
+  
+//   } else {
+//     suma += number;
+//   }
+
+// }
+
+// alert("La suma total de los numeros introducidos es:" + suma);
+
+
