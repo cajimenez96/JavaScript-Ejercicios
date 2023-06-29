@@ -21,8 +21,20 @@ Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y 
 
 // acitividad 2
 
-function invertirPalabra(palabra){
-  return palabra.split("").reverse().join("");
+// function invertirPalabra(palabra){
+//   return palabra.split("").reverse().join("");
+// }
+
+// alert(invertirPalabra('Emiliano'));
+
+// acitividad 3
+
+function esPalindromo(palabra){
+  if(palabra === palabra.split("").reverse().join("")){
+    alert('hola soy un palidromo')
+  }else{
+    alert('hola no soy un palidromo')
+  }
 }
 
-alert(invertirPalabra('Emiliano'));
+esPalindromo('oso');
