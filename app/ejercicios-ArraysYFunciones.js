@@ -10,3 +10,14 @@ Desarrollar los siguientes problemas:
 5. El usuario ingrese un string con varias palabras separadas por coma en un prompt y se deben convertir en un array, (el usuario ingresa: "1,2,3,4,5" y se convierte en [1,2,3,4,5]).
 
 TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCION*/
+
+/*--------------- Ejercicio N°1 --------------- */
+
+const colores = ["Azul", "Rojo", "Amarrillo", "Verde", "Morado", "Marron", "Violeta", "Celeste", "Purpura", "Naranja"];
+
+console.log(`Estos son los colores ${colores}`);
+
+const coloresOrdenados = [colores[2], colores[0], colores[7], colores[5], colores[4], colores[9], colores[8], colores[1], colores[3], colores[6]];
+
+console.log(`Colores ordenados alfabeticamente ${coloresOrdenados}`);
+
