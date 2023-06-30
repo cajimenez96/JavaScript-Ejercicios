@@ -69,4 +69,23 @@ if(cadena.length > 0) {
 }
 
 
-/*  prueba */ 
+/*---------Ejecicio N°3---------*/
+
+
+const nameConst = "gabrielmendez";
+const contraseñaOk = "milanesa123"
+let cont = 0;
+const contMax = 3;
+
+
+while(cont < contMax){
+  let nameInput = prompt("Ingresa el nombre").toLowerCase();
+  let contraseña = prompt("Ingrese la Contraseña");
+  if(nameInput == nameConst && contraseña == contraseñaOk){
+    window.alert("Ingreso Correctamente");
+    break;
+  }else {
+    window.alert("Usuario y/o contraseña incorrectos");
+    cont++;
+  }
+}
