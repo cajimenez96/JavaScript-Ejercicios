@@ -21,3 +21,18 @@ const coloresOrdenados = [colores[2], colores[0], colores[7], colores[5], colore
 
 console.log(`Colores ordenados alfabeticamente ${coloresOrdenados}`);
 
+
+/*--------------- Ejercicio N°2 --------------- */
+
+
+let emptyArray = [];
+
+cont = 0;
+
+for(let i = 0; i < 20; i++){
+    emptyArray.push(i+1);
+}
+
+for(let j=0; j<emptyArray.length; j++)
+console.log(`Los numeros son ${emptyArray[j]}`);
+
