@@ -21,47 +21,4 @@ Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y 
 //   Escribir una función llamada suma que reciba dos números como parámetros y devuelva la suma de ambos. Luego, llamar a la función con dos números e imprimir el resultado.
 
 
-const opciones = ['piedra','papel','tijera'];
-
-
-const opcionUsuario = prompt ("Elige entra las siguientes opciones: pierdra,papel o tijera") toloWercase.;
-const opcionComputadora = 'tijera';
-
-
-if (opcionUsuario === opcionComputadora) {
-  console.log ('empate');
-} else {
-if (opcionUsuario === 'piedra' && opcionComputadora === 'tijera') {
-  console.log ('Ganaste');
-} 
-else if (opcionUsuario === 'papel' && opcionComputadora === 'piedra') {
-  console.log ('ganaste');
-}
-else if (opcionUsuario === 'tijera' && opcionComputadora === 'papel') {
-  console.log ('ganaste');
-}
-}
-
-// switch (opcionUsuario) {
-//   case 'piedra' :
-//     if (opcionComputadora === tijera) {
-//       console.log ('ganaste');
-//     }
-//     break;
-//     case 'papel':
-//       if (opcionComputadora === piedra) {
-//         console.log ('ganaste');
-//       }
-//       break;
-//       case 'tijera':
-//         if (opcionComputadora === papel) {
-//           console.log ('ganaste');
-//         }
-//         break;
-// }
-
-const opcionComputadora = Math.floor (Math.random( )*opciones.length)
-
-
-
 
