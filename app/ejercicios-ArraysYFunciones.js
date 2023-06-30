@@ -36,6 +36,8 @@ for(let i = 0; i < 20; i++){
 for(let j=0; j<emptyArray.length; j++)
 console.log(`Los numeros son ${emptyArray[j]}`);
 
+
+
 /*--------------- Ejercicio N°3 --------------- */
 
 
@@ -51,3 +53,20 @@ for(let i = 0; i < N; i++){
 for(let j=0; j<emptyArray2.length; j++)
 console.log(`Los numeros son ${emptyArray2[j]}`);
 
+
+
+
+/*--------------- Ejercicio N°4 --------------- */
+
+
+
+
+let arrayColor = ["azul", "amarillo", "rojo", "verde", "café", "rosa"];
+
+const selectColor = [prompt("Ingrese un color para checkear si se encuentra disponible")];
+
+for(let i=0 ; i < arrayColor.length ; i++){
+    if(selectColor[0] === arrayColor[i]){
+        console.log("Coinciden");
+    }
+}
