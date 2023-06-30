@@ -86,4 +86,54 @@ EJERCICIOS CON CICLOS REPETITIVOSSS!!!
 //  }
 //   console.log (resultado);
 // }
-  
+
+
+// 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
+
+// Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp
+
+// suma = '';
+
+
+// do {
+//   let palabras =  prompt ('Ingresar una cadena de texto');
+//   suma = suma + '-' + palabras
+// } while ( confirm ('Desea seguir?'));
+// console.log (suma);
+
+
+// 4- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo números. Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
+
+// suma = 0;
+
+// do {
+//   let numeros = parseInt (prompt ('Ingresa los numeros a acumular'));
+//   if (numeros == Number (numeros)) {
+//   numeros = Number (numeros);
+//   suma = suma + numeros
+//   }
+//   else if (numeros != undefined) {
+//     alert ('Este no es un numero');
+//   }
+// } while (confirm ('Desea seguir?'));
+// console.log (suma);
+
+
+// 6- Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+
+// 1
+// 22
+// 333
+// 4444
+// 55555
+// 666666
+// …….
+
+
+for ( index = 1; index <= 30; index++) {
+  let resultado = '';
+  for (columnas = 30; columnas index; columnas++) {
+    resultado = resultado + index
+  }
+console.log (resultado);
+}
