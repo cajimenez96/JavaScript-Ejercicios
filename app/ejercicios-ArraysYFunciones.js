@@ -36,3 +36,18 @@ for(let i = 0; i < 20; i++){
 for(let j=0; j<emptyArray.length; j++)
 console.log(`Los numeros son ${emptyArray[j]}`);
 
+/*--------------- Ejercicio N°3 --------------- */
+
+
+
+let emptyArray2 = [];
+const N = parseInt(prompt("Ingrese un valor"));
+
+
+for(let i = 0; i < N; i++){
+    emptyArray2.push(i+1);
+}
+
+for(let j=0; j<emptyArray2.length; j++)
+console.log(`Los numeros son ${emptyArray2[j]}`);
+
