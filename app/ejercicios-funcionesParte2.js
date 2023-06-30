@@ -41,40 +41,43 @@
 //   piedra papel o tijera
 // Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. 
 
-const PPT = (usuario) => { 
+// function obtenerOpcionComputadora() {
+//   const opciones = ['piedra', 'papel', 'tijera'];
+//   return opciones[Math.floor(Math.random() * opciones.length)];
+// }
 
-  let computadora = Math.floor(Math.random() * 3 + 1 );
+// function determinarGanador() {
+//   let consulta;
+//   do {
+//     consulta = confirm('¿Querés jugar?');
 
-switch (computadora) {
-  case 1:
-    computadora = "piedra"
-    break;
-    case 2:
-      computadora = "papel"
-      break
-      case 3:
-    computadora = "tijera"
-    break
-};
+//     if (consulta === true) {
 
-if (usuario === "piedra" || usuario === "papel" || usuario === "tijera"  ) {
+//       const opcionComputadora = obtenerOpcionComputadora();
+//       let opcionUsuario = prompt("Elegí entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
 
-  console.log(`El usuario eligio ${usuario}.`);
-  console.log("---");
-  console.log(`La computadora eligio ${computadora}.`);
-  console.log("---");
-  
-  if (usuario === computadora) {
-    return  ("Empate.");
-  } else if ((usuario === "piedra" && computadora === "tijera") || (usuario === "tijera" && computadora === "papel") || (usuario === "papel" && computadora === "piedra")) {
-    return ("Ganaste.");
-  } else {
-    return ("Perdiste.");
-  }
-} else {
- return("Ingrese un valor valido.");
-}
-}
-console.log(PPT("piedra"));
+      
+//       while (opcionUsuario != "piedra" && opcionUsuario != "tijera" && opcionUsuario != "papel") {
+//         opcionUsuario = prompt("Opción inválida. Por favor, elige una opción válida: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
+//       }
+
+//       if (opcionUsuario === opcionComputadora) {
+//         console.log('empate');
+//       } else {
+//         if (
+//           (opcionUsuario === 'piedra' && opcionComputadora === 'tijera') ||
+//           (opcionUsuario === 'papel' && opcionComputadora === 'piedra') ||
+//           (opcionUsuario === 'tijera' && opcionComputadora === 'papel')
+//         ) {
+//           console.log('ganaste');
+//         } else {
+//           console.log('perdiste');
+//         }
+//       }
+//     }
+//   } while (consulta === true);
+// }
+
+// determinarGanador();
 
 

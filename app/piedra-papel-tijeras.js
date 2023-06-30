@@ -14,27 +14,43 @@
 //Utilizar una funcion para determinar el ganador
 
 
-let consulta;
-do {
-  //ESTO SE REPITE SIEMPRE AL MENOS UNA VEZ
-  consulta = confirm('¿Querés jugar?');
-  
-  if (consulta === true) {
-    const opciones = ['piedra', 'papel', 'tijera'];
-    const opcionUsuario = prompt("Elegí entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLocaleLowerCase().trim();
-    const index = Math.floor(Math.random() * opciones.length);
-    const opcionComputadora = opciones[index];
-    if (opcionUsuario === opcionComputadora) {
-      console.log('empate');
-    } else {
-      if (opcionUsuario === 'piedra' && opcionComputadora === 'tijera') {
-        console.log('ganaste');
-      } else if (opcionUsuario === 'papel' && opcionComputadora === 'piedra') {
-        console.log('ganaste');
-      } else if (opcionUsuario === 'tijera' && opcionComputadora === 'papel') {
-        console.log('ganaste');
+function obtenerOpcionComputadora() {
+  const opciones = ['piedra', 'papel', 'tijera'];
+  return opciones[Math.floor(Math.random() * opciones.length)];
+}
+
+function determinarGanador() {
+  let consulta;
+  do {
+    consulta = confirm('¿Querés jugar?');
+
+    if (consulta === true) {
+
+      const opcionComputadora = obtenerOpcionComputadora();
+      let opcionUsuario = prompt("Elegí entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
+
+      
+      while (opcionUsuario != "piedra" && opcionUsuario != "tijera" && opcionUsuario != "papel") {
+        opcionUsuario = prompt("Opción inválida. Por favor, elige una opción válida: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
+      }
+
+      if (opcionUsuario === opcionComputadora) {
+        console.log('empate');
+      } else {
+        if (
+          (opcionUsuario === 'piedra' && opcionComputadora === 'tijera') ||
+          (opcionUsuario === 'papel' && opcionComputadora === 'piedra') ||
+          (opcionUsuario === 'tijera' && opcionComputadora === 'papel')
+        ) {
+          console.log('ganaste');
+        } else {
+          console.log('perdiste');
+        }
       }
     }
-  }
-  //DETERMINA SI VOLVEMOS A REPETIR
-} while (consulta === true);
+  } while (consulta === true);
+}
+
+determinarGanador();
+
+
