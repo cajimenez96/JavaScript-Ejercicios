@@ -23,3 +23,13 @@ let result = myFunction(3, 2);
 console.log(`La suma es ${result}`);
 
 
+/*-------------- Ejecicio Intermedio --------------*/
+
+function invertirPalabra(texto) {
+  return texto.split(``).reverse().join(``);
+  /* primero individualizamos cada palabra del texto con .split(``) para poder aplicarlo al texo se usa `` luego revertimos las palabras con .reverse , luego ingresamos .join para ingresar los cambios a un nuevo array y agregamos `` para eliminar las comas que se general al aplciar el .split */
+}
+
+let mostrarTexto = invertirPalabra(`Hola mundo`);
+
+console.log(`El texto invertido es ${mostrarTexto}`);
