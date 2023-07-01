@@ -33,3 +33,31 @@ function invertirPalabra(texto) {
 let mostrarTexto = invertirPalabra(`Hola mundo`);
 
 console.log(`El texto invertido es ${mostrarTexto}`);
+
+
+
+
+
+/*-------------- Ejecicio Dificil --------------*/
+
+
+
+function esPalindromo(cadena){
+
+  let texto2 = cadena.toLowerCase();
+
+  let texto2Revers = texto2.split(``).reverse().join(``);
+
+  return texto2Revers === texto2; 
+}
+
+let palabra = prompt("Ingrese una palabra polidromo");
+let palabraCadena =  esPalindromo(palabra);
+
+
+if(palabraCadena) {
+  console.log(`Es una palabra polidromo`);
+}else {
+  console.log(`No es una palabra polidromo`);
+}
+
