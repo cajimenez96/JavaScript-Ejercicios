@@ -11,3 +11,15 @@ Difícil:
 Muy dificil:
   piedra papel o tijera
 Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. */
+
+/*-------------- Ejecicio facil --------------*/
+
+function myFunction(num0, num1) {
+  return num0 + num1;
+}
+
+let result = myFunction(3, 2);
+
+console.log(`La suma es ${result}`);
+
+
