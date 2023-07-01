@@ -29,28 +29,41 @@ sumar(); */
 
 // EJERCICIO NUMERO 2
 
-function invertirPalabra(){
-let texto = prompt("Ingrese una cadena de texo").toString();
-var textinv = "";
-for (i = texto.length - 1; i >= 0; i-- ) {
-    textinv += texto.charAt(i);
+// function invertirPalabra(){
+// let texto = prompt("Ingrese una cadena de texo").toString();
+// var textinv = "";
+// for (i = texto.length - 1; i >= 0; i-- ) {
+//     textinv += texto.charAt(i);
     
-  }
+//   }
   
-  console.log(textinv); 
+//   console.log(textinv); 
+// }
+
+// invertirPalabra
+
+// EJERCICIO NUMERO 3
+
+function esPalindromo(){
+let texto = prompt("Ingrese una cadena de texo").toString().toLowerCase();
+var textinv = "";
+const texto2= texto.split(" ").join("");
+
+for (i = texto2.length - 1; i >= 0; i-- ) {
+  textinv += texto2.charAt(i);
+
 }
 
-invertirPalabra()
+if (texto2 == textinv) {
+  console.log("Es un palindromo");
 
+} else {
+  console.log("No es un palindromo");
+}
 
+}
 
-
-
-
-
-
-
-
+esPalindromo();
 
 
 
