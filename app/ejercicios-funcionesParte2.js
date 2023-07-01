@@ -11,3 +11,85 @@ Difícil:
 Muy dificil:
   piedra papel o tijera
 Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. */
+
+
+//EJERCICIO NUMERO 1
+
+/* function sumar(){
+  let numero1 = parseInt(prompt("Ingrese el primer numero"));
+  let numero2 = parseInt(prompt("Ingrese el segundo numero"));
+
+  var suma = numero1 + numero2;
+  console.log(suma);
+  
+  
+}
+
+sumar(); */
+
+// EJERCICIO NUMERO 2
+
+let texto = prompt("Ingrese una cadena de texo").toString();
+var textinv = "";
+for (i = texto.length - 1; i >= 0; i-- ) {
+    textinv += texto.charAt(i);
+    
+  }
+  
+  console.log(textinv); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//EJERCICIO NUMERO 1
+
+// piedra > tijera
+// papel < piedra
+// tijera > papel
+// ===
+
+/* const opciones = ["piedra", "papel", "tijera"];
+let consulta;
+
+do {
+  const opcionUsuario = prompt("Elegi entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
+
+  const index = Math.floor(Math.random() * opciones.length);
+  const opcionPc = opciones [index];
+
+  if(opcionUsuario === opcionPc) {
+  console.log("Empate");
+  } else {
+  if(opcionUsuario === "piedra" && opcionPc === "tijera") {
+    console.log("Ganaste");
+  
+  } else if(opcionUsuario === "papel" && opcionPc === "piedra") {
+    console.log("Ganaste");
+  
+  } else if(opcionUsuario === "tijera" && opcionPc === "papel") {
+    console.log("Ganaste");
+  
+  } 
+
+  consulta = confirm("Queres jugar");
+}
+
+} while (consulta === true);
+
+// Eliminar espaciados de palabras p i e d r a
+// Mostrar un mensaje si el usuario ingreso mal la opcion y vuelva a ingresar
+// Utilizar funciones para que la computadora tome un valor y otra para que determine quien gano. */
+

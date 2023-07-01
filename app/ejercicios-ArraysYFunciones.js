@@ -64,14 +64,14 @@ TENER EN CUENTA QUE LAS RESOLUCIONES DE CADA EJERCICIO DEBEN ESTAR EN UNA FUNCIO
 
 // EJERCICIO NUMERO 5
 
-function creadorArrays() {
+// function creadorArrays() {
 
-const string = prompt("Ingrese texto o numeros, seguidos de una coma");
+// const string = prompt("Ingrese texto o numeros, seguidos de una coma");
 
-const separado = string.split(",");
+// const separado = string.split(",");
 
-console.log(separado);
+// console.log(separado);
 
-}
+// }
 
-creadorArrays();
+// creadorArrays();
