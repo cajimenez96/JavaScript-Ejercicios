@@ -70,3 +70,14 @@ for(let i=0 ; i < arrayColor.length ; i++){
         console.log("Coinciden");
     }
 }
+
+
+
+/*--------------- Ejercicio N°5 --------------- */
+
+
+
+let valores = [prompt(`Ingresa los valores`)];
+
+console.log(`Los valores son:  ${valores}`);
+
