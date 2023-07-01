@@ -29,6 +29,7 @@ sumar(); */
 
 // EJERCICIO NUMERO 2
 
+function invertirPalabra(){
 let texto = prompt("Ingrese una cadena de texo").toString();
 var textinv = "";
 for (i = texto.length - 1; i >= 0; i-- ) {
@@ -37,8 +38,9 @@ for (i = texto.length - 1; i >= 0; i-- ) {
   }
   
   console.log(textinv); 
+}
 
-
+invertirPalabra()
 
 
 
