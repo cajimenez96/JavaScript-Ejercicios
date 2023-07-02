@@ -14,7 +14,7 @@
 //Utilizar una funcion para determinar el ganador
 
 
-let consulta;
+/*let consulta;
 do {
   //ESTO SE REPITE SIEMPRE AL MENOS UNA VEZ
   consulta = confirm('¿Querés jugar?');
@@ -37,4 +37,4 @@ do {
     }
   }
   //DETERMINA SI VOLVEMOS A REPETIR
-} while (consulta === true);
+} while (consulta === true);*/

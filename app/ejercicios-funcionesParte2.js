@@ -76,35 +76,71 @@ sumar(); */
 // tijera > papel
 // ===
 
-/* const opciones = ["piedra", "papel", "tijera"];
-let consulta;
+
+
+
+// Eliminar espaciados de palabras p i e d r a
+// Mostrar un mensaje si el usuario ingreso mal la opcion y vuelva a ingresar
+// Utilizar funciones para que la computadora tome un valor y otra para que determine quien gano. */
+
+/*function OpcionCompu() {
+  const opciones = ["piedra", "papel", "tijera"];
+  
+  const index = Math.floor(Math.random() * opciones.length);
+  const opcionPc1 = opciones [index];
+  return opcionPc1;
+  
+}
+
+function Ganador() {
+  
+  const opcionPc = OpcionCompu();
+  let consulta; 
+
 
 do {
-  const opcionUsuario = prompt("Elegi entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
+  const cadena = prompt("Elegi entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLowerCase().trim();
 
-  const index = Math.floor(Math.random() * opciones.length);
-  const opcionPc = opciones [index];
+  const opcionUsuario = cadena.split(" ").join("");
+  
+  console.log(opcionUsuario);
+
+
+  if (opcionUsuario == "piedra" || opcionUsuario == "papel" || opcionUsuario == "tijera") {
+    
+  } else {
+    alert("La opcion ingresada no es correcta");
+  }
 
   if(opcionUsuario === opcionPc) {
-  console.log("Empate");
+  alert("Empate");
+
   } else {
+
   if(opcionUsuario === "piedra" && opcionPc === "tijera") {
-    console.log("Ganaste");
+    alert("Ganaste");
   
   } else if(opcionUsuario === "papel" && opcionPc === "piedra") {
-    console.log("Ganaste");
+    alert("Ganaste");
   
   } else if(opcionUsuario === "tijera" && opcionPc === "papel") {
-    console.log("Ganaste");
+    alert("Ganaste");
   
-  } 
+  } else if(opcionUsuario === "piedra" && opcionPc === "papel") {
+    alert ("Perdiste");
+
+  } else if(opcionUsuario === "papel" && opcionPc === "tijera") {
+    alert ("Perdiste");
+
+  } else if(opcionUsuario === "tijera" && opcionPc === "piedra") {
+    alert ("Perdiste");
+  }
 
   consulta = confirm("Queres jugar");
 }
 
 } while (consulta === true);
 
-// Eliminar espaciados de palabras p i e d r a
-// Mostrar un mensaje si el usuario ingreso mal la opcion y vuelva a ingresar
-// Utilizar funciones para que la computadora tome un valor y otra para que determine quien gano. */
+}
 
+Ganador();*/
