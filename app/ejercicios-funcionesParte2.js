@@ -44,32 +44,32 @@ sumar(); */
 
 // EJERCICIO NUMERO 3
 
-function esPalindromo(){
-let texto = prompt("Ingrese una cadena de texo").toString().toLowerCase();
-var textinv = "";
-const texto2= texto.split(" ").join("");
+// function esPalindromo(){
+// let texto = prompt("Ingrese una cadena de texo").toString().toLowerCase();
+// var textinv = "";
+// const texto2= texto.split(" ").join("");
 
-for (i = texto2.length - 1; i >= 0; i-- ) {
-  textinv += texto2.charAt(i);
+// for (i = texto2.length - 1; i >= 0; i-- ) {
+//   textinv += texto2.charAt(i);
 
-}
+// }
 
-if (texto2 == textinv) {
-  console.log("Es un palindromo");
+// if (texto2 == textinv) {
+//   console.log("Es un palindromo");
 
-} else {
-  console.log("No es un palindromo");
-}
+// } else {
+//   console.log("No es un palindromo");
+// }
 
-}
+// }
 
-esPalindromo();
-
-
+// esPalindromo();
 
 
 
-//EJERCICIO NUMERO 1
+
+
+//EJERCICIO NUMERO 4
 
 // piedra > tijera
 // papel < piedra
