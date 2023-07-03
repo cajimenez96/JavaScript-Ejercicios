@@ -11,3 +11,18 @@ Difícil:
 Muy dificil:
   piedra papel o tijera
 Crea un juego de piedra papel o tijera, donde el usuario ingrese su eleccion, y la computadora elija una opcion al azar, luego compare las dos opciones e imprima por consola el resultado del juego. */
+
+//EJERCICIO 1 
+
+let suma = (a,b) => a+b;
+
+//EJERCICIO 2 
+
+let invertirPalabra = (str)=> str.split('').reverse();
+
+//EJERCICIO 3 
+
+let esPalindromo = (word)=> invertirPalabra(word).join('')===word;
+
+//EJERCICIO 4 
+

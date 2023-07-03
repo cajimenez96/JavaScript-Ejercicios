@@ -56,5 +56,4 @@ function isThere(){
 //EJERCICIO 5 
 const makeArray = () => prompt('ingrese varias palabras separadas por "comas"').split(',');
 
-console.log(makeArray());
 
