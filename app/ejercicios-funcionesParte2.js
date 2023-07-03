@@ -26,3 +26,27 @@ let esPalindromo = (word)=> invertirPalabra(word).join('')===word;
 
 //EJERCICIO 4 
 
+let consulta;
+do {
+  //ESTO SE REPITE SIEMPRE AL MENOS UNA VEZ
+  consulta = confirm('¿Querés jugar?');
+  
+  if (consulta === true) {
+    const opciones = ['piedra', 'papel', 'tijera'];
+    const opcionUsuario = prompt("Elegí entre las siguientes opciones: \n- Piedra \n- Papel \n- Tijera").toLocaleLowerCase().trim();
+    const index = Math.floor(Math.random() * opciones.length);
+    const opcionComputadora = opciones[index];
+    if (opcionUsuario === opcionComputadora) {
+      console.log('empate');
+    } else {
+      if (opcionUsuario === 'piedra' && opcionComputadora === 'tijera') {
+        console.log('ganaste');
+      } else if (opcionUsuario === 'papel' && opcionComputadora === 'piedra') {
+        console.log('ganaste');
+      } else if (opcionUsuario === 'tijera' && opcionComputadora === 'papel') {
+        console.log('ganaste');
+      }
+    }
+  }
+  //DETERMINA SI VOLVEMOS A REPETIR
+} while (consulta === true);
