@@ -61,3 +61,53 @@ if(palabraCadena) {
   console.log(`No es una palabra polidromo`);
 }
 
+/*-------------- Ejecicio Muy Dificil --------------*/
+
+
+
+let jugar;
+
+do{
+
+  jugar = confirm("queres jugar?");
+
+  function computerChoise(){
+    const opciones = ['piedra', 'papel', 'tijera'];
+    const index = Math.floor(Math.random() * opciones.length);
+    return opciones[index];
+  }
+
+  function determWin(player, com){
+    if(player === com){
+      return console.log('Empate');
+    }
+    else if((player === 'piedra' && com === 'tijera') || (player === 'tijera' && com === 'papel') || (player === 'papel' && com === 'piedra')){
+      return console.log('ganaste');
+    }else{
+      return console.log("perdiste");
+    }
+  }
+
+  if(jugar === true){
+    
+    const jugador = prompt("Ingrese uno de los siguientes valores:\n-piedra \n-papel \n-tijera").toLocaleLowerCase().trim().replace(/\s/g, "");
+    const computer = computerChoise()
+    const ganador = determWin(jugador, computer);
+
+    
+    
+
+
+    if(jugador !== 'piedra' && jugador !== 'papel' && jugador !== 'tijera'){
+      console.log("La opcion no es valida");
+      break;
+    }else{
+      console.log("ingresaste", jugador);
+      console.log("com ingreso", computer);
+    }
+  }
+    
+  
+
+}while(jugar === true)
+
