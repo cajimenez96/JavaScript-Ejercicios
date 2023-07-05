@@ -189,45 +189,46 @@
 
 // EJERCICIO NUMERO 5
 
-function valorLetra(){
+// function valorLetra(){
 
-let seguir;
+// let seguir;
 
-do {
+// do {
         
-const dni = parseInt(prompt("Ingrese un numero entre el 0 y el 99999999"));
+// const dni = parseInt(prompt("Ingrese un numero entre el 0 y el 99999999"));
 
-var resto = dni % 23;
+// var resto = dni % 23;
 
-if (isNaN(dni) || dni > 999999999) {
-    alert("No es un numero valido");
-} 
+// if (isNaN(dni) || dni > 999999999) {
+//     alert("No es un numero valido");
+// } 
 
 
-if (resto == 0) {
-    alert("Te corresponde la T");
+// if (resto == 0) {
+//     alert("Te corresponde la T");
 
-} else if (resto == 1){
-    alert("Te corresponde la R");
+// } else if (resto == 1){
+//     alert("Te corresponde la R");
 
-} else if( resto == 2){
-    alert("Te corresponde la W");
+// } else if( resto == 2){
+//     alert("Te corresponde la W");
 
-} else if( resto == 3) {
-    alert("Te corresponde la A");
+// } else if( resto == 3) {
+//     alert("Te corresponde la A");
 
-} else if( resto == 4) {
-    alert("Te corresponde la G"); 
+// } else if( resto == 4) {
+//     alert("Te corresponde la G"); 
 
-} else if ( resto == 5) {
-    alert("Te corresponde la M");    
-}
+// } else if ( resto == 5) {
+//     alert("Te corresponde la M");    
+// }
 
-seguir = confirm("Desea iniciar otra vez?");
-}
+// seguir = confirm("Desea iniciar otra vez?");
+// }
 
- while (seguir === true);
+//  while (seguir === true);
+    
+// }
 
-}
+// valorLetra();
 
-valorLetra();

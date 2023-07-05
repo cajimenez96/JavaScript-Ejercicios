@@ -83,7 +83,7 @@ sumar(); */
 // Mostrar un mensaje si el usuario ingreso mal la opcion y vuelva a ingresar
 // Utilizar funciones para que la computadora tome un valor y otra para que determine quien gano. */
 
-/*function OpcionCompu() {
+/* function opcionCompu() {
   const opciones = ["piedra", "papel", "tijera"];
   
   const index = Math.floor(Math.random() * opciones.length);
@@ -92,9 +92,9 @@ sumar(); */
   
 }
 
-function Ganador() {
+function ganador() {
   
-  const opcionPc = OpcionCompu();
+  const opcionPc = opcionCompu();
   let consulta; 
 
 
@@ -143,4 +143,5 @@ do {
 
 }
 
-Ganador();*/
+ganador();
+OpcionCompu(); */
