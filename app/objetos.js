@@ -1,4 +1,4 @@
-let persona = {
+/* let persona = {
   // String, Number, Boolean, Function, Array, Objeto
   nombre: "",
   apellido: "",
@@ -55,4 +55,4 @@ for (let index = 0; index < productos.length; index++) {
 }
 
 //Buscar información sobre:
-// FOREACH - FORIN - MAP - FILTER - FIND
+// FOREACH - FORIN - MAP - FILTER - FIND 

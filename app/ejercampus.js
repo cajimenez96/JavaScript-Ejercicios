@@ -232,3 +232,81 @@
 
 // valorLetra();
 
+// EJERCICIO NUMERO 7 CAMPUS1
+
+// let numero1 = parseInt(prompt("Ingrese el primer numero"));
+// let numero2 = parseInt(prompt("Ingrese el segundo numero"));
+// let numero3 = parseInt(prompt("Ingrese el tercer numero"));
+
+// alert(`El numero mas grande es ${Math.max(numero1, numero2, numero3)}`);
+
+
+// EJERCICIO NUMERO 9 CAMPUS1
+
+// let frase = prompt("Ingrese una frase");
+// let vocales = [];
+
+// if (frase.includes("a")) {
+//     vocales.push("a");
+
+// } 
+
+// if (frase.includes("e")) {
+//     vocales.push("e");
+
+// } 
+
+// if (frase.includes("i")) {
+//     vocales.push("i");
+
+// } 
+
+// if (frase.includes("o")) {
+//     vocales.push("o");
+
+// } 
+
+// if (frase.includes("u")) {
+//     vocales.push("u");
+
+// } 
+
+// alert(vocales);
+
+
+//EJERCICIO 9 - CAMPUS2
+
+/* for(i = 1; i <= 500; i++){
+
+    var numeros = i;
+    
+    if (i % 4 === 0){
+        numeros += " Multiplo de 4";
+    }
+    
+    if (i % 9 === 0){
+        numeros += " Multiplo de 9";
+    }
+
+    if (i % 5 === 0) {
+        console.log("----------------------")
+    }
+    console.log(numeros);
+} */
+
+// EJERCICIO 10 - CAMPUS2
+
+let fila = parseInt(prompt("Ingrese el numero de filas"));
+let columna = parseInt(prompt("Ingrese el numero de columnas"));
+
+var cantNum = fila * columna;
+var row = "";
+
+for (i = cantNum; i >= 1; i--) {
+row += i;
+console.log(row);
+} 
+
+
+
+
