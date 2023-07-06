@@ -296,17 +296,15 @@
 
 // EJERCICIO 10 - CAMPUS2
 
-let fila = parseInt(prompt("Ingrese el numero de filas"));
-let columna = parseInt(prompt("Ingrese el numero de columnas"));
+// let fila = parseInt(prompt("Ingrese el numero de filas"));
+// let columna = parseInt(prompt("Ingrese el numero de columnas"));
 
-var cantNum = fila * columna;
-var row = "";
+// var cantNum = fila * columna;
+// var row = "";
 
-for (i = cantNum; i >= 1; i--) {
-row += i;
-console.log(row);
-} 
-
-
+// for (i = cantNum; i >= 1; i--) {
+// row += i;
+// console.log(row);
+// } 
 
 
