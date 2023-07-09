@@ -310,6 +310,46 @@
 
 // EJERCICIO NUMERO 1 -CAMPUS3
 
-let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+// let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
-console.log(meses);
+// console.log(meses);
+
+
+// EJERCICIO NUMERO 2 -CAMPUS3
+
+
+/* let ciudades = [];
+
+let jugar;
+
+let longitud;
+
+do {
+    let ciudad = prompt("Ingrese el nombre de una ciudad");
+
+    ciudades.push(ciudad);
+
+    jugar = confirm("Desea ingresar otra ciudad?");
+
+    longitud = ciudades.length;
+
+    
+} while (jugar === true);
+
+console.log(ciudades);
+
+console.log(ciudades.length);
+
+console.log(ciudades[0], ciudades[2], ciudades[longitud-1]);
+
+ciudades.push("Paris");
+
+console.log(ciudades[1]);
+
+ciudades.splice(1, 1, "Barcelona");
+
+console.log(ciudades); **/
+
+
+// EJERCICIO NUMERO 3 -CAMPUS3
+
