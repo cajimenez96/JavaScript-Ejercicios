@@ -393,3 +393,57 @@ console.log(`Suma ${sum}: ${count} apariciones`);
 
 // numeroPar();
 
+
+// EJERCICIO NUMERO 5 - CAMPUS3
+
+// function cadena(){
+
+// let cadena = prompt("Ingresar una cadena de texto");
+
+// if (cadena === cadena.toLowerCase()) {
+
+//     alert("Es una cadena escrita en minuscula");
+
+// } else if(cadena === cadena.toUpperCase()) {
+
+//     alert("Es una cadena escrita en mayuscula");
+// } else {
+//     alert("La cadena esta escrita en mayuscula y minuscula");
+// }
+
+// }
+
+// cadena();
+
+
+// EJERCICIO NUMERO 6 - CAMPUS3
+
+
+// let lado1 = parseInt(prompt("Ingrese el primer valor"));
+// let lado2 = parseInt(prompt("Ingrese el segundo valor"));
+
+// let perim = 2 * (lado1 + lado2);
+
+// alert("el perimetro es " + perim);
+
+
+// EJERCICIO NUMERO 7 - CAMPUS 
+
+// function esTabla(){
+
+// let numero = parseInt(prompt("Ingrese un numero"));
+// let tabla = [];
+// for(i = 1; i <= 10; i++) {
+
+    
+//     let multi = i * numero; 
+//     tabla.push(multi);
+
+    
+// }
+
+// console.log(`Tabla del ${numero} = ${tabla}`);
+
+// }
+
+// esTabla();
