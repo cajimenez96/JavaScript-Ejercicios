@@ -353,3 +353,24 @@ console.log(ciudades); **/
 
 // EJERCICIO NUMERO 3 -CAMPUS3
 
+let sumas = new Array(11).fill(0);
+
+for (i = 0; i < 50; i++) {
+    
+    let dado1 = parseInt(Math.random() * 7);
+    let dado2 = parseInt(Math.random() * 7);
+    let suma = dado1 + dado2;
+    
+    sumas[suma]++;
+    
+
+}
+
+for(let i = 0; i < sumas.length; i++){
+
+    let sum = i + 2;
+
+    let count = sumas[i];
+
+console.log(`Suma ${sum}: ${count} apariciones`);
+}
