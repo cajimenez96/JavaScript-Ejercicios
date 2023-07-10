@@ -353,7 +353,7 @@ console.log(ciudades); **/
 
 // EJERCICIO NUMERO 3 -CAMPUS3
 
-let sumas = new Array(11).fill(0);
+/* let sumas = new Array(11).fill(0);
 
 for (i = 0; i < 50; i++) {
     
@@ -373,4 +373,23 @@ for(let i = 0; i < sumas.length; i++){
     let count = sumas[i];
 
 console.log(`Suma ${sum}: ${count} apariciones`);
-}
+} */
+
+
+// EJERCICIO NUMERO 4 - CAMPUS3
+
+// function numeroPar() {
+
+// let numero = parseInt(prompt("Ingrese un numero"));
+
+// if (numero % 2 === 0) {
+
+//     alert("Es un numero par");
+// } else {
+//     alert("Es un numero impar");
+// }
+
+// }
+
+// numeroPar();
+
